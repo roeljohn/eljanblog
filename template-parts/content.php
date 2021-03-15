@@ -7,7 +7,7 @@
 
 <div class="item mb-5">
 	<div class="media">
-		<img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blog/blog-post-thumb-5.jpg" alt="image">
+		<img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="<?php the_post_thumbnail_url(); ?>" alt="image">
 		<div class="media-body">
 			<h3 class="title mb-1"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h3>
 			<div class="meta mb-1"><span class="date">Published 2 months ago</span><span class="time">10 min read</span><span class="comment"><a href="#">23 comments</a></span></div>
