@@ -43,23 +43,22 @@
 					
 					<div class="bio mb-3">Hi, my name is Roel John just call me Eljan. I'm a Web Developer form the Philippines.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://www.facebook.com/roeljohn.bobis"><i class="fab fa-facebook fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/roel-bobis-78b51059/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://github.com/roeljohn"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://stackoverflow.com/users/9741315/roel-john"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
 			        </ul><!--//social-list-->
 			        <hr> 
 				</div><!--//profile-section-->
 				<?php
-		wp_nav_menu( array(
-			'container'            => 'ul',
-			'theme_location' => 'menu-1',
-			'menu_id'        => 'primary-menu',
-			'menu_class' => 'navbar-nav flex-column text-left',
-			'link_before' => '<i class="fas fa-home fa-fw mr-2"></i>'
-		) );
-		?>
-				
+					wp_nav_menu( array(
+						'container'            => 'ul',
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+						'menu_class' => 'navbar-nav flex-column text-left',
+						'link_before' => '<i class="fas fa-home fa-fw mr-2"></i>'
+					) );
+				?>
 				<div class="my-2 my-md-3">
 				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
 				</div>
