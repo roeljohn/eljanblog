@@ -85,3 +85,18 @@ function untheme_create_post_custom_post() {
 	));
 }
 add_action('init', 'untheme_create_post_custom_post'); // Add our work type
+
+add_filter ( 'nav_menu_css_class', 'so_37823371_menu_item_class', 10, 4 );
+
+function so_37823371_menu_item_class ( $classes, $item, $args, $depth ){
+  $classes[] = 'nav-item';
+  return $classes;
+}
+
+add_filter( 'nav_menu_link_attributes', 'wpse156165_menu_add_class', 10, 3 );
+
+function wpse156165_menu_add_class( $atts, $item, $args ) {
+    $class = 'nav-link'; // or something based on $item
+    $atts['class'] = $class;
+    return $atts;
+}
