@@ -10,6 +10,9 @@ Text Domain: untheme
 */
 
 /* Text meant only for screen readers. */
+.main-wrapper{
+
+}
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
 	clip-path: inset(50%);

@@ -11,6 +11,9 @@
                <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small><br/>
                <small class="copyright">Develop and Customize by Roel John Bobis</small>
        </footer>
+           <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/plugins/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/plugins/popper.min.js"></script> 
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
        <?php wp_footer(); ?>
    </div><!--//main-wrapper-->
 
