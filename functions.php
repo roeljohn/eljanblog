@@ -100,3 +100,12 @@ function wpse156165_menu_add_class( $atts, $item, $args ) {
     $atts['class'] = $class;
     return $atts;
 }
+
+function prefix_nav_description( $item_output, $item, $depth, $args ) {
+    if ( !empty( $item->description ) ) {
+        $item_output = str_replace( '">' . $args->link_before . $item->title, '">' . $args->link_before . '<i class="' . $item->description . '"></i>' . $item->title, $item_output );
+    }
+ 
+    return $item_output;
+}
+add_filter( 'walker_nav_menu_start_el', 'prefix_nav_description', 10, 4 );

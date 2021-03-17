@@ -54,8 +54,7 @@
 						'container'            => 'ul',
 						'theme_location' => 'menu-1',
 						'menu_id'        => 'primary-menu',
-						'menu_class' => 'navbar-nav flex-column text-left',
-						'link_before' => '<i class="fas fa-home fa-fw mr-2"></i>'
+						'menu_class' => 'navbar-nav flex-column text-left'
 					) );
 				?>
 				<div class="my-2 my-md-3">
