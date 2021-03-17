@@ -10,6 +10,9 @@ Text Domain: untheme
 */
 
 /* Text meant only for screen readers. */
+.blog-list .blog-content img{
+	width: 100%;
+}
 .main-wrapper{
 
 }
