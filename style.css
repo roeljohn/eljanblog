@@ -45,3 +45,7 @@ Text Domain: untheme
 .form-submit input{
 	float: right;
 }
+.blog-list{
+	border-top: solid 1px #ddd;
+    border-left: solid 1px #ddd;
+}
