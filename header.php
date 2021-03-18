@@ -43,6 +43,7 @@
 					<div class="bio mb-3">Hi, my name is Roel John just call me Eljan. I'm a Web Developer from the Philippines.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
 			            <li class="list-inline-item"><a href="https://www.facebook.com/roeljohn.bobis"><i class="fab fa-facebook fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UClisHj4_TvU0NlHBFc_zOFQ"><i class="fab fa-youtube"></i></a></li>
 			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/roel-bobis-78b51059/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
 			            <li class="list-inline-item"><a href="https://github.com/roeljohn"><i class="fab fa-github-alt fa-fw"></i></a></li>
 			            <li class="list-inline-item"><a href="https://stackoverflow.com/users/9741315/roel-john"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
