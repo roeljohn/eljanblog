@@ -10,6 +10,9 @@ Text Domain: untheme
 */
 
 /* Text meant only for screen readers. */
+a:hover{
+	text-decoration: none !important;
+}
 .blog-list .blog-content img{
 	width: 100%;
 }
@@ -47,5 +50,12 @@ Text Domain: untheme
 }
 .blog-list{
 	border-top: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
     border-left: solid 1px #ddd;
+}
+.comment-content{
+    margin-top: 10px;
+}
+.comment-body{
+    margin-top: 10px;
 }
