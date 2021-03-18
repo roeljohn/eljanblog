@@ -109,3 +109,12 @@ function prefix_nav_description( $item_output, $item, $depth, $args ) {
     return $item_output;
 }
 add_filter( 'walker_nav_menu_start_el', 'prefix_nav_description', 10, 4 );
+
+/* Add a paragraph only to Pages. */
+function my_added_page_content ( $content ) {
+	if (is_home()){
+		$content = mb_strimwidth( $content, 0, 100, "...");
+	}
+	return $content;
+}
+add_filter( 'the_excerpt', 'my_added_page_content');
