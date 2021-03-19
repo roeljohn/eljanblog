@@ -40,7 +40,8 @@
 				<div class="profile-section pt-3 pt-lg-0">
 				    <img class="profile-image mb-3 rounded-circle mx-auto" src="http://localhost/wphooksguy/wp-content/uploads/2021/03/1x1ab.jpg" alt="image" >			
 					
-					<div class="bio mb-3">Hi, my name is Roel John just call me Eljan. I'm a Web Developer from the Philippines.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<div class="bio mb-3">Hi, my name is Roel John just call me Eljan. I'm a Web Developer from the Philippines.<br><a href="<?php $url = home_url( '/about-me' );
+echo $url; ?>">Find out more about me</a></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
 			            <li class="list-inline-item"><a href="https://www.facebook.com/roeljohn.bobis"><i class="fab fa-facebook fa-fw"></i></a></li>
 						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UClisHj4_TvU0NlHBFc_zOFQ"><i class="fab fa-youtube"></i></a></li>
