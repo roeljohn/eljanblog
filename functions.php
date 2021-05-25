@@ -118,3 +118,5 @@ function my_added_page_content ( $content ) {
 	return $content;
 }
 add_filter( 'the_excerpt', 'my_added_page_content');
+
+add_theme_support( 'title-tag' );
